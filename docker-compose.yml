@@ -9,7 +9,7 @@ services:
       - ./:/var/www
     networks:
       - fringe_apigateway
-  lumen-web:
+  companies:
     build:
       context: ./
       dockerfile: web.dockerfile
